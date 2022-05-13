@@ -110,6 +110,7 @@
 
 /* line 67, ../../radoo_bday_website/src/sass/style.sass */
 .about .text {
+  display: block;
   max-width: 100%;
   margin-top: 80px;
   font-family: Roboto;
@@ -119,7 +120,7 @@
   color: #000000;
 }
 
-/* line 75, ../../radoo_bday_website/src/sass/style.sass */
+/* line 76, ../../radoo_bday_website/src/sass/style.sass */
 .about .text a {
   margin-top: 80px;
   font-family: Roboto;
@@ -129,7 +130,7 @@
   color: #000000;
 }
 
-/* line 82, ../../radoo_bday_website/src/sass/style.sass */
+/* line 83, ../../radoo_bday_website/src/sass/style.sass */
 .last {
   min-height: 900px;
   padding-top: 10px;
@@ -137,7 +138,7 @@
   background-color: #dcdcdc;
 }
 
-/* line 88, ../../radoo_bday_website/src/sass/style.sass */
+/* line 89, ../../radoo_bday_website/src/sass/style.sass */
 .last .text {
   font-size: 35px;
   line-height: 1.2;
@@ -146,7 +147,7 @@
   margin-top: 60px;
 }
 
-/* line 94, ../../radoo_bday_website/src/sass/style.sass */
+/* line 95, ../../radoo_bday_website/src/sass/style.sass */
 .last .text.text_italic {
   font-size: 35px;
   line-height: 33px;
@@ -155,7 +156,7 @@
   color: #838383;
 }
 
-/* line 100, ../../radoo_bday_website/src/sass/style.sass */
+/* line 101, ../../radoo_bday_website/src/sass/style.sass */
 .last .text.text_bold {
   font-size: 55px;
   line-height: 1.2;
@@ -163,7 +164,7 @@
   color: #838383;
 }
 
-/* line 105, ../../radoo_bday_website/src/sass/style.sass */
+/* line 106, ../../radoo_bday_website/src/sass/style.sass */
 .last .image_peepo {
   margin: 60px auto 0 auto;
 }
