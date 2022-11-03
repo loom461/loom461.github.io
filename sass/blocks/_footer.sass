@@ -1,0 +1,52 @@
+.footer
+
+    padding-top: 26px
+    &__wrapper
+        margin: 0 auto
+        display: flex
+        /* justify-content: space-between */
+        align-items: flex-start
+    &__links
+        width: 33%
+        display: flex
+        flex-direction: column
+        text-align: center
+
+        font-weight: 400
+        font-size: 14px
+        line-height: 17px
+        color: #FFFFFF
+        .link
+            margin-bottom: 15px
+            font-size: 14px
+            display: inline
+            position: relative
+            color: white
+            /* margin-left: 58px */
+        .link:after
+            content: ''
+            position: absolute
+            width: 100%
+            transform: scaleX(0)
+            height: 0.90px
+            bottom: 0
+            left: 0
+            background-color: #ffffff
+            transform-origin: bottom right
+            transition: transform 0.2s ease-out
+        .link:hover:after
+            transform: scaleX(1)
+            transform-origin: bottom left
+    &__socials
+        width: 33%
+        display: flex
+        justify-content: flex-end
+        .icon
+            max-height: 32px
+    &__logo
+        width: 33%
+    a
+        text-decoration: none
+        color: white
+    min-height: 160px
+    background: black
