@@ -1,7 +1,7 @@
 .work
     /* position: inherit */
     min-height: 570px
-    padding:100px 0 0 0
+    padding:100px 50px 0 
     
     &__header
         text-align: center
@@ -13,7 +13,8 @@
         margin-top: 66px
         display: flex
         flex-direction: row
-        justify-content: space-between
+        justify-content: space-evenly
+        flex-flow: wrap
         .card
             text-align: center
             font-weight: 400
@@ -26,8 +27,9 @@
             background: #FFFFFF
             border: 1px solid #DEDEDE
             box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.08)
-            width: 204px
+            max-width: 204px
             height: 180px
+            margin-bottom: 20px
             .divider
                 width: 100px
                 height: 1px
