@@ -1,0 +1,55 @@
+.header
+    position: fixed
+    z-index: 3
+    width: 100%
+    padding: 0 20px
+    /* height: 80px */
+    background: #000000
+    top: 0px
+    &__logo
+        /* max-width: 148px */
+        display: flex
+        align-items: center
+        height: 100%
+        /* margin: 20px 0 */
+        img
+            max-height: 32px
+        .logo-text
+            font-weight: 400
+            font-size: 24px
+            line-height: 30px
+            height: 33px
+    &__links
+        min-width: 306px
+        display: flex
+        justify-content: space-between
+        .link
+            font-size: 14px
+            display: inline-block
+            position: relative
+            color: white
+            /* margin-left: 58px */
+        .link:after
+            content: ''
+            position: absolute
+            width: 100%
+            transform: scaleX(0)
+            height: 0.90px
+            bottom: 0
+            left: 0
+            background-color: #ffffff
+            transform-origin: bottom right
+            transition: transform 0.2s ease-out
+        .link:hover:after
+            transform: scaleX(1)
+            transform-origin: bottom left
+    nav
+        /* padding: 20px 0 */
+        display: flex
+        justify-content: space-between
+        align-items: center
+        height: 60px
+        
+        a
+            text-decoration: none
+            color: white
