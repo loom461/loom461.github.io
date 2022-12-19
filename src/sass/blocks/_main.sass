@@ -1,7 +1,11 @@
 .main
     position: inherit
     min-height: 661px
-    background: url('../img/main_bg1536px.jpg') center center/cover no-repeat
+    /* background: url('../img/main_bg1536px.jpg') center center/cover no-repeat */
+    background: url('../img/main_bg1536px.jpg')
+
+    /* background: url('../img/main_bg1536px.jpg') */
+
     padding: 168px 0 0 0
     margin-top: 60px
     &__wrapper
@@ -16,7 +20,12 @@
         font-size: 54px
         line-height: 33px
     &__image
+        width: 232px
+        height: 232px
+
+        background: url('../img/avatar.jpg')
         img
+            
             max-width: 232px
     &__content
         display: flex
