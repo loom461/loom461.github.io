@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href ="img/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -58,17 +58,29 @@
                         </div>
                         <div class="contacts__links">
                             <a href="https://steamcommunity.com/id/cheezyTAX" target=”_blank” class="link steam">
-                                <img src="icons/steam_icon.svg" alt="steam">
+								<button class="main__button blue">
+									<span class="text">Steam</span>
+									<img src="icons/steam_icon.svg" alt="steam" class="icon">
+								</button>
                             </a>
                             <a href="https://discordapp.com/users/469027034509737995" target=”_blank” class="link discord">
-                                <img src="icons/discord_icon.svg" alt="discord">
+                                <button class="main__button purple">
+									<span class="text">Discord</span>
+									<img src="icons/discord_icon.svg" alt="discord" class="icon">
+								</button>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="main__image">
-                    <div class="main__image__wrapper">
-						
+                    <div class="main__image main__image_wrapper">
+						<svg width="154" height="212" viewBox="0 0 154 212" fill="none" xmlns="http://www.w3.   org/2000/svg">
+                            <path d="M154 109.252L115.546 54.6263L77.0921 0.000305176V136.099L154 109.252Z" fill="#007CC7"/>
+                            <path d="M77.0921 212L154 109.252L77.0921 136.099V212Z" fill="#0066A4"/>
+                            <path d="M77.0921 0.000305176L0 109.252L77.0921 136.099V0.000305176Z" fill="#0066A4"/>
+                            <path d="M0 109.252L38.5461 160.626L77.0921 212V136.099L0 109.252Z" fill="#004E7D"/>
+                        </svg>
+						<div class="main__image main__image_shadow"></div>
                     </div>
                 </div>
                 
@@ -161,7 +173,7 @@
                         <div class="descr">Coming soon...</div>
                     </div>
                 </div>
-                <div class="item wow animate__animated animate__fadeInUp" data-wow-delay="0.3s" data-wow-offset="100">
+                <div class="item wow animate__animated animate__fadeInUp" data-wow-delay="0" data-wow-offset="100">
                     <img src="icons/guest_icon.png" alt="guest" class="icon">
                     <div class="text">
                         <div class="name">your review</div>

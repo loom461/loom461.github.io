@@ -6,69 +6,113 @@
 
     /* background: url('../img/main_bg1536px.jpg') */
 
-    padding: 225px 0 0 0
-    margin-top: 0
+    &__button
+        display: flex
+        align-items: center
+        justify-content: space-evenly
+        background: linear-gradient(78.47deg, #173C51 0%, #0072A2 100%)
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.11)
+        border-radius: 43px
+        width: 158px
+        height: 45px
+        border: none
+        margin-right: 8px
+        color: #FFFFFF
+        &:hover
+            background: linear-gradient(78.47deg, #132f3f 0%, #00628d 100%)
+                   
+
+    .purple
+        background: linear-gradient(78.47deg, #34144D 0%, #5700AE 100%)
+    .purple:hover
+        background: linear-gradient(78.47deg, #2b113f 0%, #4d009a 100%)
     &__wrapper
         display: flex
         justify-content: space-between
         max-width: 742px
         max-height: 275px
         margin: 0 auto
+        margin-top: 165px
         text-align: left
     &__header
         color: #FFFFFF
         font-weight: 700
         font-size: 60px
         line-height: 33px
+        letter-spacing: 0.05em
     &__image
-        width: 232px
-        height: 232px
+        &_wrapper
+            width: 154px
+            height: 100%
+            position: relative
+        &_icon
+           
+            position: absolute
+            top: 0%
+            right: 0%
+            max-width: 154px
+            max-height: 212px
+        svg
+            path
+                transition: all 0.5s 
+                &:hover
+                    fill: #35b2ff
+            
+            animation: 2s infinite ease-in-out floating
+            
+        &_shadow
+            top: 92%
+            left: 50%
+            transform: translateX(-50%)
+            position: absolute
+            width: 85px
+            height: 23px
+            border-radius: 100%
+            background: rgba(0, 0, 0, 0.3)
+            animation: 2s infinite ease-in-out shadow
 
         /* background: url('../img/avatar.jpg') */
-        img
-            
-            max-width: 232px
     &__content
         display: flex
         flex-direction: column
-        align-items: center
+        align-items: left
         max-width: 344px
-        text-align: center
+        margin-top: 17px
         .contacts
-            
             /* box-sizing: border-box */
-            width: 174px
-            height: 82px
-            margin: 28px 0 0 0
-            padding: 10px
-            border: 1px solid #FFFFFF
+            /* width: 174px */
+            /* height: 82px */
+            margin-top: 32px
+            /* padding: 10px */
             &__text
-                font-weight: 400
-                font-size: 16px
+
+                font-weight: 300
+                font-size: 13px
                 line-height: 20px
-                color: white
+                color: #ffffff
+                
             &__links
-                display: flex
-                max-height: 100%
-                justify-content: center
+                max-height: 45px
+                margin-top: 13px
                 .link
                     /* background-color: white */
                     /* border-radius: 100% */
-                    max-width: 37px
-                    max-height: 37px
-                    margin: 4px 8px 0 8px
+                    /* max-width: 37px */
+                    /* max-height: 37px */
+                    /* margin: 4px 8px 0 8px */
+                    display: inline-block
                     
                     img
-                        width: 100%
-                        height: 100%
+                        width: 31px
+                        height: 31px 
                     
 
     &__subheader
         font-weight: 500
         font-size: 19px
-        line-height: 20px
+        line-height: 19px
         color: #ffffff
-        margin: 10px 0 0 0
+        margin: 28px 0 0 0
     &__tagline
         margin: 30px 0 0 0
         font-style: italic
