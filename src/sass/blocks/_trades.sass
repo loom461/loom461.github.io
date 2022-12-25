@@ -1,29 +1,74 @@
 .trades
-    min-height: 720px
-    padding: 100px 50px 96px
-    background: url('../img/bg_green1536px.jpg') center center/cover no-repeat
+    z-index: 0
+    position: relative
+    min-height: 639px
+    padding: 58px 50px 96px
+    background: #101010
+    
+    &__bg
+        position: absolute
+        right: 0px
+        top: 55%
+        transform: translateY(-50%)
     &__header
+        position: relative
         font-weight: 700
         font-size: 28px
         line-height: 34px
         color: #FFFFFF
         text-align: center
+        z-index: 2
+    &__plate
+        left: 0px
+        top: 55%
+        transform: translateY(-50%)
+        z-index: 1
+        position: absolute
+        width: 50%
+        height: 481px
+        background-color: #181818
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5)
     &__wrapper
+        
+        z-index: 2
+        position: relative
         margin: 0 auto
         display: flex
         flex-flow: wrap
         justify-content: space-between
-        max-width: 775px
+        max-width: 680px
         justify-self: auto
-        margin-top: 18px
-        .item 
+        margin-top: 73px
+        .item
+            &:nth-child(3)
+                img
+                    max-width: 160px
+            color: #fff
+            text-align: center
+            display: flex
+            flex-direction: column
+            
             margin-top: 13px
-            border: 1px solid #FFFFFF
+            
+            
+            font-weight: 500
+            font-size: 15px
+            line-height: 18px
+            span.purple
+                color: #CC90F4
+            span.orange
+                color: #FFB18B
+            span
+                max-width: 100%
+            
             img
-                max-height: 203px
-            .bigger
-                
-                max-height: 240px
+                margin-bottom: 10px
+                border: 2px solid
+                border-image-source: linear-gradient(78.47deg, #192964 0%, #0072A2 100%)
+                border-image-slice: 1
+                border-width: 2px
+                max-height: 146px
+                box-shadow: 0px 0px 29px 0px #00000054
             
 
             

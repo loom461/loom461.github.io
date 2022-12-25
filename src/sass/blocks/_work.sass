@@ -1,8 +1,17 @@
 .work
     /* position: inherit */
-    min-height: 570px
-    padding:100px 50px 0 
-    background: url('../img/work_bg.jpg') center center/cover no-repeat
+    position: relative
+    min-height: 600px
+    padding: 100px 50px 0 
+    background: #101010
+    &__bg
+        position: absolute
+        left: 25px
+        top: 50%
+        transform: translateY(-50%)
+        &_right
+            left: auto
+            right: 25px
     &__header
         text-align: center
         font-weight: 700
