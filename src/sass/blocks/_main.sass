@@ -53,10 +53,46 @@
             max-width: 154px
             max-height: 212px
         svg
+            #light
+                &:hover
+                    fill: #32AFFA
+            #normal
+                &:hover
+                    fill: #2B96D7
+            #normal_2  
+                &:hover
+                    fill: #2B96D7
+            #dark   
+                &:hover
+                    fill: #237BB0  
+
+            #light.active
+                fill: #6F00C7
+                &:hover
+                    fill: #A232FA
+            #normal.active
+                fill: #5C00A4
+                &:hover
+                    fill: #7B26BD
+            #normal_2.active
+                fill: #5C00A4   
+                &:hover
+                    fill: #7B26BD
+            #dark.active
+                fill: #46007D    
+                &:hover
+                    fill: #7223B0    
+                 
+                
             path
                 transition: all 0.5s 
                 &:hover
                     fill: #35b2ff
+                .active
+                    &:hover
+                        color: red
+            
+            
             
             animation: 2s infinite ease-in-out floating
             
@@ -93,7 +129,7 @@
                 
             &__links
                 max-height: 45px
-                margin-top: 13px
+                margin-top: 18px
                 .link
                     /* background-color: white */
                     /* border-radius: 100% */
