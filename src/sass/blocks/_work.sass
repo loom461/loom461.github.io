@@ -9,6 +9,7 @@
         left: 25px
         top: 50%
         transform: translateY(-50%)
+        max-height: 75%
         &_right
             left: auto
             right: 25px
@@ -25,12 +26,13 @@
         justify-content: space-evenly
         flex-flow: wrap
         .card
+            z-index: 2
             text-align: center
             padding: 12px 24px
             display: flex
             align-items: center
             flex-direction: column
-            background: none
+            background-color: #101010
             border: 2px solid
             border-image-source: linear-gradient(78.47deg, #192964 0%, #0072A2 100%)
             border-image-slice: 1

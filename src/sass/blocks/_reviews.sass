@@ -1,39 +1,73 @@
 .reviews
     min-height: 640px
     padding: 68px 0
+    background-color: #101010
+    position: relative
+    &__bg
+        position: absolute
+        left: 25px
+        top: 50%
+        transform: translateY(-50%)
+        max-height: 75%
+        &_right
+            left: auto
+            right: 25px
     &__header
         font-weight: 700
         font-size: 28px
         line-height: 34px
-        color: #000000
+        color: #ffffff
         text-align: center
         margin-bottom: 0
     &__wrapper
+        position: relative
         margin: 35px auto 0px
         display: flex
         flex-flow: wrap
         justify-content: center
-        .item
+        .item__bg
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11)
             width: 400px
             height: 132px
+            background-color: #1D1D1D
             display: flex
             padding: 12px
             margin-right: 25px
             margin-bottom: 20px
-            .icon
-                max-height: 45px
-                margin-right: 12px
-            .text
-                .name
-                    font-weight: 500
-                    font-size: 15px
-                    line-height: 18px
-                    color: #000000
+            position: relative
+            box-shadow: 0px 0px 49px 0px #00000080
+            /* border */
+            border-width: 2px
+            background: linear-gradient(0deg, #192964 0%, #0072A2 100%)
+            .item
+                position: absolute
+                left: 6px
+                bottom: 6px
+                box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.11)
+                width: 400px
+                height: 132px
+                background-color: #1D1D1D
+                display: flex
+                padding: 12px
+                /* border */
+                border: 2px solid
+                border-image-source: linear-gradient(78.47deg, #192964 0%, #0072A2 100%)
+                border-image-slice: 1
+                border-width: 2px
+                .icon
+                    max-height: 44px
+                    max-width: 45px
+                    margin-right: 12px
+                .text
+                    .name
+                        font-weight: 500
+                        font-size: 15px
+                        line-height: 18px
+                        color: #FFFFFF
 
-                .descr
-                    font-weight: 400
-                    font-size: 15px
-                    line-height: 18px
-                    color: #555555
-                    margin-top: 4px
+                    .descr
+                        font-weight: 400
+                        font-size: 15px
+                        line-height: 18px
+                        color: #DBDBDB
+                        margin-top: 4px
