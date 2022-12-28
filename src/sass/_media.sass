@@ -78,4 +78,157 @@
                 max-height: 20px
 
 
-/* @media (max-width: 575px) */
+@media (max-width: 575px)
+    header
+        display: none
+        
+    .main
+        
+        padding: 70px 20px
+        min-height: 600px
+        &__header
+            font-size: 38px
+        &__content
+            text-align: center
+            max-width: inherit
+            
+        &__subheader
+            font-size: 13px
+            margin-top: 4px
+        &__button
+            width: 130px
+            height: 35px
+            .icon
+                max-height: 25px
+            .text
+                font-size: 15px
+        &__tagline
+            font-size: 15px
+            margin-top: 23px
+        &__wrapper
+            flex-direction: column
+        .purple
+            margin-top: 15px
+        &__image
+            margin-top: 50px
+            &_shadow
+                margin-top: 35px
+                width: 50px
+                height: 13px
+            &_wrapper
+                margin: 0 auto
+                svg
+                    max-height: 120px
+    .work
+        padding: 30px 10px
+        .icon
+            display: none
+        .divider
+            display: none
+        
+        &__header
+            font-size: 19px
+        &__wrapper
+            margin-top: 35px
+            .card
+                justify-content: center
+                width: 100%
+                max-height: 117px
+                padding: 10px 10px
+                .descr
+                    font-size: 13px
+                    margin: 0
+    .trades
+        padding: 30px 10px
+        &__header
+            font-size: 19px
+        &__wrapper
+            margin-top: 40px
+            justify-content: space-around
+            .item
+                font-size: 10px
+                img
+                    max-height: 94px
+                    margin: 0 10px
+    .reviews
+        padding-top: 35px
+        &__header
+            font-size: 19px
+        &__wrapper
+            .item__bg
+                width: 268px 
+                /* min-height: 70px */
+                margin-right: 10px
+                /* display: inline */
+                height: fit-content
+                padding: 0
+                .item
+                    position: relative
+                    width: 268px 
+                    /* height: auto */
+                    padding: 6px
+                    margin-right: 0
+
+                    .icon
+                        max-height: 33px
+                    .text
+                        .descr    
+                            font-size: 12px 
+    .about
+        min-height: 500px
+        padding: 20px 10px
+        &__header
+            font-size: 19px
+        &__descr
+            font-size: 13px
+        &__text
+            padding: 30px 20px
+    .contact
+        min-height: 450px
+        padding: 20px 10px
+        &__links
+            margin: 0 auto
+        &__plate
+            left: 5%
+            width: 90%
+            text-align: center
+            padding: 60px 30px
+            height: 400px
+        &__photo
+            display: none
+        &__header
+            font-size: 19px
+        &__wrapper
+            display: none
+        &__button
+            margin: 15px auto
+            width: 150px
+            height: 40px
+            .icon
+                max-height: 30px
+            .text
+                font-size: 15px
+        &__subheader
+            font-size: 14px
+    .footer
+        padding: 20px 10px
+        &__wrapper
+            flex-flow: wrap
+            align-items: center
+            justify-content: center
+        &__item-1
+            width: fit-content
+        &__item-2
+            order: 1
+            width: 100%
+        &__item-3
+        &__links
+            flex-direction: row
+            justify-content: space-around
+            margin-top: 20px
+        .creator-info
+            order: 2
+            position: relative
+            text-align: center
+            margin-top: 15px
+            
