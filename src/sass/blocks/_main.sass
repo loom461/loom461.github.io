@@ -11,22 +11,37 @@
         display: flex
         align-items: center
         justify-content: space-evenly
-        background: linear-gradient(78.47deg, #173C51 0%, #0072A2 100%)
-        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.11)
-        border-radius: 43px
+        /* background: linear-gradient(78.47deg, #173C51 0%, #0072A2 100%) */
+        background: rgba(0,0,0,0)
+        /* box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.11) */
+        
+        /* outline: 1px solid white */
         width: 158px
-        height: 45px
-        border: none
+        height: 43px
         margin-right: 8px
         color: #FFFFFF
+        /* transition: 1s all */
+        /* transition: 0.3s all */
+        border: none
+        border: 0.01rem solid white
+        border-radius: 15px
+
+
         &:hover
-            background: linear-gradient(78.47deg, #132f3f 0%, #00628d 100%)
+            
+            background: linear-gradient(78.47deg, #164c6b 0%, #0083bb 100%)
+            /* outline: 0.1rem solid white */
+            border: none
                    
 
     .purple
-        background: linear-gradient(78.47deg, #34144D 0%, #5700AE 100%)
+        /* background: linear-gradient(78.47deg, #34144D 0%, #5700AE 100%) */
+        /* border: 2px solid #4d009a */
     .purple:hover
-        background: linear-gradient(78.47deg, #2b113f 0%, #4d009a 100%)
+        /* background: linear-gradient(78.47deg, #2b113f 0%, #4d009a 100%) */
+        background: linear-gradient(78.47deg, #45156b 0%, #6900d3 100%)
+        
+
     &__wrapper
         display: flex
         justify-content: space-between
@@ -84,12 +99,13 @@
                 &:hover
                     fill: #7B26BD
             #dark.active
-                fill: #46007D    
+                fill: #46007D  
+                
                 &:hover
                     fill: #7223B0    
                  
                 
-            path
+            path    
                 transition: all 0.5s 
                 &:hover
                     fill: #35b2ff
@@ -144,8 +160,8 @@
                     display: inline-block
                     
                     img
-                        width: 31px
-                        height: 31px 
+                        width: 30px
+                        height: 30px 
                     
 
     &__subheader
